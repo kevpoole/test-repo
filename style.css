@@ -4,3 +4,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wow{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    cursor: pointer;
+}
